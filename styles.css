@@ -335,7 +335,7 @@ body {
 /* Блок анкеты гостя */
 .rsvp-section {
     padding: 0;
-    margin-right: 50px;
+    padding-right: 50px;
     
     font-family: 'HeinrichScript';
 }
