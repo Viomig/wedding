@@ -24,7 +24,7 @@ h1{
 /* Общие стили */
 body {
     font-family: Arial, sans-serif;
-    margin: 10px;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10; /* Убираем padding, чтобы блоки занимали весь экран */
+    padding: 0; /* Убираем padding, чтобы блоки занимали весь экран */
 }
 
 .section-light {
@@ -335,8 +335,6 @@ body {
 /* Блок анкеты гостя */
 .rsvp-section {
     padding: 0;
-    padding-right: 50px;
-    
     font-family: 'HeinrichScript';
 }
 
@@ -623,9 +621,10 @@ background-position: center;
 
 
 .formG{
-    height: 120vh;
+    height: 80vh;
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 5px;
  }
 
 html, body {
@@ -1027,14 +1026,14 @@ html, body {
         .date-month {
             font-size: min(10vw, 32px);
             font-weight: 500;
-            color: #000000;
+            color: #8a6d6d;
             text-transform: lowercase;
         }
 
         .date-year {
             font-size: min(8vw, 24px);
             font-weight: 500;
-            color: #000000;
+            color: #8a6d6d;
         }
 
         .date-divider {
