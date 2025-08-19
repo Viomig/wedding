@@ -39,7 +39,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0; /* Убираем padding, чтобы блоки занимали весь экран */
+    padding: 10; /* Убираем padding, чтобы блоки занимали весь экран */
 }
 
 .section-light {
@@ -1026,14 +1026,14 @@ html, body {
         .date-month {
             font-size: min(10vw, 32px);
             font-weight: 500;
-            color: #8a6d6d;
+            color: #000000;
             text-transform: lowercase;
         }
 
         .date-year {
             font-size: min(8vw, 24px);
             font-weight: 500;
-            color: #8a6d6d;
+            color: #000000;
         }
 
         .date-divider {
