@@ -21,6 +21,10 @@ h1{
     font-style: bold;
     font-size: 40px;
 }
+
+p{
+    font-size: 3rem;
+}
 /* Общие стили */
 body {
     font-family: Arial, sans-serif;
@@ -69,7 +73,6 @@ body {
 
 #maptext{
     text-align: center;
-    font-size: 3rem;
 }
 
 body {
